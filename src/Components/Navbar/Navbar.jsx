@@ -9,7 +9,7 @@ const Navbar = () => {
         <a href="/" className="text-white text-xl font-bold">
           ECOLOGIK
         </a>
-        <div className="flex items-center space-x-16 text-white">
+        <div className="flex items-center space-x-6 text-white">
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
