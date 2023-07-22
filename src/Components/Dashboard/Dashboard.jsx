@@ -16,7 +16,7 @@ const Dashboard = () => {
       <div className="fixed top-24 w-full flex items-center justify-center">
         <div className="flex gap-3">
           <button
-            class="btn"
+            class="btn button-1"
             type="button"
             onClick={() => handleOptionChange("day")}
           >
@@ -31,7 +31,7 @@ const Dashboard = () => {
             </div>
           </button>
           <button
-            class="btn"
+            class="btn button-1"
             type="button"
             onClick={() => handleOptionChange("month")}
           >
@@ -46,7 +46,7 @@ const Dashboard = () => {
             </div>
           </button>
           <button
-            class="btn"
+            class="btn button-1"
             type="button"
             onClick={() => handleOptionChange("year")}
           >
@@ -62,10 +62,10 @@ const Dashboard = () => {
           </button>
         </div>
 
-        <section className="fixed top-40">
-          {selectedOption === "day" && <DayCharts />}
-          {selectedOption === "month" && <MonthCharts />}
-          {selectedOption === "year" && <YearCharts />}
+        <section className="fixed top-40 w-full ">
+          <div >{selectedOption === "day" && <DayCharts />}</div>
+          <div>{selectedOption === "month" && <MonthCharts />}</div>
+          <div>{selectedOption === "year" && <YearCharts />}</div>
         </section>
       </div>
     </>
