@@ -12,12 +12,13 @@ const Dashboard = () => {
   };
   return (
     <>
-      <div className="text-container fixed top-10 w-full p-3 flex items-center justify-center">
+    <div className =" w-full h-full">
+      <div className="text-container relative top-10 w-full  p-3 flex items-center justify-center">
         <span>ENERGY</span>&nbsp;
         <span>MANAGEMENT</span>
       </div>
-      <div className="fixed top-32 w-full flex items-center justify-center">
-        <div className="flex gap-3">
+      <div className="my-5 w-full ">
+        <div className="flex gap-3 items-center justify-center">
           <button
             class="btn button-1"
             type="button"
@@ -65,11 +66,12 @@ const Dashboard = () => {
           </button>
         </div>
 
-        <section className="fixed top-48 w-full flex justify-around">
+        <section className="top-48 my-5 w-full">
           {selectedOption === "day" && <DayCharts />}
           {selectedOption === "month" && <MonthCharts />}
           {selectedOption === "year" && <YearCharts />}
         </section>
+      </div>
       </div>
     </>
   );
