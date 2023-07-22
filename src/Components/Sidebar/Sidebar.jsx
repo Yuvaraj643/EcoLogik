@@ -1,11 +1,11 @@
 import React from "react";
-// import avatar from "./avatar.jpg";
+import avatar from "./avatar.jpg";
 import "./sidebar.css"
 
 const Sidebar = () => {
   return (
     <>
-      {/* <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             Dashboard
@@ -90,8 +90,8 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
-      </nav> */}
-      <div id="nav" className="col-12 col-md-3 col-xl-2 bd-sidebar">
+      </nav>
+      {/* <div id="nav" className="col-12 col-md-3 col-xl-2 bd-sidebar">
         <div className="row">
           <div className="col-md-12 col-8">
             <div className="text-sm-left text-md-center logo">
@@ -99,7 +99,6 @@ const Sidebar = () => {
             </div>
           </div>
           <div className="col-md-12 col-4 text-right">
-            {/* <!-- for menu when screen width is less--> */}
             <button
               className="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3 collapsed"
               type="button"
@@ -129,9 +128,8 @@ const Sidebar = () => {
           </div>
         </div>
         <nav className="collapse bd-links" id="bd-docs-nav">
-          {/* <OptionList /> */}
         </nav>
-      </div>
+      </div> */}
     </>
   );
 };
