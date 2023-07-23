@@ -7,7 +7,7 @@ import LineChart from "./Charts/LineChart";
 const DayCharts = () => {
   return (
     <>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-full">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-full mx-auto">
         <div class="col">
           <div class="card">
             <div class="card-body">
