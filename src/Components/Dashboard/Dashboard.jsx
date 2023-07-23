@@ -3,6 +3,7 @@ import DayCharts from "./DayCharts";
 import MonthCharts from "./MonthCharts";
 import YearCharts from "./YearCharts";
 import "./Dashboard.css";
+import 'animate.css';
 
 const Dashboard = () => {
   const [selectedOption, setSelectedOption] = useState("day");
@@ -13,12 +14,12 @@ const Dashboard = () => {
   return (
     <>
       <div className=" w-full h-full">
-        <div className="text-container relative top-10 w-full  p-3 flex items-center justify-center">
+        <div className="text-container relative top-10 w-full  p-3 flex items-center justify-center animate__animated animate__lightSpeedInRight">
           <span>ENERGY</span>&nbsp;
           <span>MANAGEMENT</span>
         </div>
         <div className="my-5 w-full ">
-          <div className="flex gap-3 justify-center">
+          <div className="flex gap-3 justify-center animate__animated animate__fadeInDown">
             {/* <button
             class="btn button-1"
             type="button"
