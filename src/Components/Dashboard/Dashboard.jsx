@@ -3,7 +3,7 @@ import DayCharts from "./DayCharts";
 import MonthCharts from "./MonthCharts";
 import YearCharts from "./YearCharts";
 import "./Dashboard.css";
-import 'animate.css';
+import "animate.css";
 
 const Dashboard = () => {
   const [selectedOption, setSelectedOption] = useState("day");
@@ -13,58 +13,12 @@ const Dashboard = () => {
   };
   return (
     <>
-      <div className=" w-full h-full">
-        <div className="text-container relative top-10 w-full  p-3 flex items-center justify-center animate__animated animate__lightSpeedInRight">
-          <span>ENERGY</span>&nbsp;
-          <span>MANAGEMENT</span>
-        </div>
-        <div className="my-5 w-full ">
+      <div className="main w-full h-full">
+        <h1 className="relative text-3xl top-20 flex justify-center animate__animated animate__lightSpeedInRight">
+          ENERGY MANAGEMENT
+        </h1>
+        <div className="relative top-28 text-bold w-full ">
           <div className="flex gap-3 justify-center animate__animated animate__fadeInDown">
-            {/* <button
-            class="btn button-1"
-            type="button"
-            onClick={() => handleOptionChange("day")}
-          >
-            <strong>TODAY</strong>
-            <div id="container-stars">
-              <div id="stars"></div>
-            </div>
-
-            <div id="glow">
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </button>
-          <button
-            class="btn button-1"
-            type="button"
-            onClick={() => handleOptionChange("month")}
-          >
-            <strong>MONTH</strong>
-            <div id="container-stars">
-              <div id="stars"></div>
-            </div>
-
-            <div id="glow">
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </button>
-          <button
-            class="btn button-1"
-            type="button"
-            onClick={() => handleOptionChange("year")}
-          >
-            <strong>YEAR</strong>
-            <div id="container-stars">
-              <div id="stars"></div>
-            </div>
-
-            <div id="glow">
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </button> */}
             <button
               data-text="Awesome"
               class="button-1"

@@ -8,7 +8,7 @@ const Sidebar = () => {
       <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Dashboard
+            ECOLOGIK
           </a>
           <button
             class="navbar-toggler"

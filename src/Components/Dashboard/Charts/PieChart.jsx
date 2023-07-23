@@ -49,7 +49,9 @@ const PieChart = () => {
         ],
       };
   return (
-    <Pie {...config} />
+    <div id="chat-container">
+      <Pie {...config} />
+    </div>
   )
 }
 

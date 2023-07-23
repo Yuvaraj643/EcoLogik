@@ -5,7 +5,7 @@ export const ColumnChart = () => {
     const data = [
         {
           type: '家具家电',
-          sales: 38,
+          sales: 20,
         },
         {
           type: '粮油副食',
