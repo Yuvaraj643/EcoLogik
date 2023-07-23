@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Pie } from '@ant-design/plots';
-import PieChart from './Charts/PieChart';
-import { ColumnChart } from './Charts/ColumnChart';
-import LineChart from './Charts/LineChart';
+import PieChart from './Charts/MonthCharts/PieChart';
+import { ColumnChart } from './Charts/MonthCharts/ColumnChart';
+import LineChart from './Charts/MonthCharts/LineChart';
 const MonthCharts = () => {
 
   return (

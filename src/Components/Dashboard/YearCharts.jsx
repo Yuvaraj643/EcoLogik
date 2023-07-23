@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import PieChart from './Charts/PieChart';
-import LineChart from './Charts/LineChart';
-import { ColumnChart } from "./Charts/ColumnChart";
+import PieChart from './Charts/YearCharts/PieChart';
+import LineChart from './Charts/YearCharts/LineChart';
+import { ColumnChart } from "./Charts/YearCharts/ColumnChart";
 const YearCharts = () => {
   const data = [
     {
