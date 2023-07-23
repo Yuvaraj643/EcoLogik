@@ -2,11 +2,8 @@
 
 /* === removing default button-1 style ===*/
 .main{
-  background-image: url("./mesh.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  height : 100vh;
+  height : 200vh;
+  background-color: #094f77;
 }
 .button-1 {
   margin: 0;
@@ -28,7 +25,7 @@
   font-family: "Arial";
   position: relative;
   text-transform: uppercase;
-  color: black;
+  color: rgb(251, 251, 251);
   -webkit-text-stroke: 1px var(--text-stroke-color);
 }
 /* this is the text, when you hover on button-1 */
@@ -50,7 +47,7 @@
   filter: drop-shadow(0 0 23px var(--animation-color))
 }
 h1{
-  color : rgba(255, 0, 0, 0.662);
+  color : white;
   font-weight: bolder;
   font-size: 48px;
 }

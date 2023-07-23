@@ -4,6 +4,8 @@ import PieChart from "./Charts/DayCharts/PieChart";
 import { ColumnChart } from "./Charts/DayCharts/ColumnChart";
 import LineChart from "./Charts/DayCharts/LineChart";
 import 'animate.css';
+import SideColumn from "./Charts/DayCharts/SideColumn";
+import Progress from "./Charts/DayCharts/Progress";
 
 const DayCharts = () => {
   return (
@@ -27,6 +29,20 @@ const DayCharts = () => {
           <div class="card animate__animated animate__backInRight">
             <div class="card-body">
               <LineChart />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card animate__animated animate__backInRight">
+            <div class="card-body">
+              <SideColumn />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card animate__animated animate__backInRight">
+            <div class="card-body">
+              <Progress />
             </div>
           </div>
         </div>

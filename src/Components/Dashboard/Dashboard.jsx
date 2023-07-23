@@ -14,7 +14,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="main w-full h-full">
-        <h1 className="relative text-3xl top-20 flex justify-center animate__animated animate__lightSpeedInRight">
+        <h1 className="relative text-3xl top-20 flex justify-center animate__animated animate__fadeInUp">
           ENERGY MANAGEMENT
         </h1>
         <div className="relative top-28 text-bold w-full ">
