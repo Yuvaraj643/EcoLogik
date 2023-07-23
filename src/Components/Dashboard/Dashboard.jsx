@@ -18,7 +18,7 @@ const Dashboard = () => {
         <span>MANAGEMENT</span>
       </div>
       <div className="my-5 w-full ">
-        <div className="flex gap-3 items-center justify-center">
+        <div className="flex gap-3 justify-center">
           <button
             class="btn button-1"
             type="button"
