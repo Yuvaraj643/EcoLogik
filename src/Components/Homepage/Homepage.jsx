@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css"
 
 const Homepage = () => {
   return (
@@ -21,7 +22,7 @@ const Homepage = () => {
             </p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="/dashboard"
+                href="/auth"
                 class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get Started
@@ -128,7 +129,7 @@ const Homepage = () => {
                   </span>
                 </p>
                 <a
-                  href="#"
+                  href="/dashboard"
                   class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started
