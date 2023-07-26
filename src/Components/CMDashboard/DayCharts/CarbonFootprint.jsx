@@ -165,16 +165,16 @@ const CarbonFootprint = () => {
           <div className="card-body">
             <div className="flex w-full mx-auto justify-center align-items-center row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
               <h6 className="card-title text-center mx-auto" style={TextStyle}>
-                JULY<br /><p style={{color: 'green',fontSize : '25px'}}>189.8kg</p>
+                JULY<br /><p style={{color: 'green',fontSize : '25px'}}>6.8kg</p>
               </h6>
               <h6 className="card-title text-center" style={TextStyle}>
-                SO FAR THIS MONTH<br /><p style={{color: 'green',fontSize : '25px'}}>174.8kg</p>
+                SO FAR THIS MONTH<br /><p style={{color: 'green',fontSize : '25px'}}>4.2kg</p>
               </h6>
               <h6 className="card-title text-center" style={TextStyle}>
-                PREDICTED THIS MONTH<br /><p style={{color: 'green',fontSize : '25px'}}>209.8kg</p>
+                PREDICTED THIS MONTH<br /><p style={{color: 'green',fontSize : '25px'}}>5.8kg</p>
               </h6>
               <h6 className="card-title text-center" style={TextStyle}>
-                CHANGE IN EMISSIONS<br /><p className="flex text-center justify-center " style={{color: 'red',fontSize : '25px'}}>10.12<div style={{color: 'red'}}>▲</div></p>
+                CHANGE IN EMISSIONS<br /><p className="flex text-center justify-center " style={{color: 'red',fontSize : '25px'}}>7.12<div style={{color: 'red'}}>▲</div></p>
               </h6>
             </div>
             <Line {...config} />
