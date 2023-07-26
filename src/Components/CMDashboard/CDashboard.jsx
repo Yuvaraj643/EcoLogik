@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import CarbonFootprint from "./DayCharts/CarbonFootprint";
 import CarbonMonthCharts from "./MonthCharts/CarbonMonthCharts"
-import CarbonYearCharts from "./YearCharts/CarbonYearCharts"
+import CarbonYearCharts from "./YearCharts/CarbonYearCharts";
+import "./style.css"
 const CDashboard = () => {
   const [selectedOption, setSelectedOption] = useState("day");
 
