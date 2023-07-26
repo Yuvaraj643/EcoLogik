@@ -14,7 +14,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="main w-full h-full">
-        <h1 className="relative text-3xl top-20 flex justify-center animate__animated animate__fadeInUp">
+        <h1 className="relative text-3xl top-20 flex justify-center animate__animated animate__fadeInUp text-white">
           ENERGY MANAGEMENT
         </h1>
         <div className="relative top-28 text-bold w-full ">
@@ -25,9 +25,9 @@ const Dashboard = () => {
               type="button"
               onClick={() => handleOptionChange("day")}
             >
-              <span class="actual-text">&nbsp;today&nbsp;</span>
+              <span class="actual-text">&nbsp;week&nbsp;</span>
               <span class="hover-text" aria-hidden="true">
-                &nbsp;today&nbsp;
+                &nbsp;week&nbsp;
               </span>
             </button>
             <button

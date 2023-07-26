@@ -6,31 +6,28 @@ import { Bar } from '@ant-design/plots';
 const SideColumn = () => {
     const data = [
         {
-          year: '1951 年',
-          value: 38,
+          Appliance: 'AC',
+          value: 50,
         },
         {
-          year: '1952 年',
-          value: 52,
+          Appliance: 'Lights',
+          value: 30,
         },
         {
-          year: '1956 年',
-          value: 61,
+          Appliance: 'Computers',
+          value:70,
         },
         {
-          year: '1957 年',
-          value: 145,
+          Appliance:'lift',
+          value: 20,
         },
-        {
-          year: '1958 年',
-          value: 48,
-        },
-      ];
+       
+      ];
       const config = {
         data,
         xField: 'value',
-        yField: 'year',
-        seriesField: 'year',
+        yField: 'Appliance',
+        seriesField: 'Appliance',
         legend: {
           position: 'top-left',
         },

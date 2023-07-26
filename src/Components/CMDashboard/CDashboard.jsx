@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CarbonFootprint from "./DayCharts/CarbonFootprint";
-
+import CarbonMonthCharts from "./MonthCharts/CarbonMonthCharts"
+import CarbonYearCharts from "./YearCharts/CarbonYearCharts"
 const CDashboard = () => {
   const [selectedOption, setSelectedOption] = useState("day");
 
@@ -9,8 +10,8 @@ const CDashboard = () => {
   };
   return (
     <>
-          <div className="main w-full h-full">
-        <h1 className="relative text-3xl top-20 flex justify-center animate__animated animate__fadeInUp">
+      <div className="main w-full h-full">
+        <h1 className="relative text-3xl top-20 flex justify-center text-white animate__animated animate__fadeInUp">
           ENERGY MANAGEMENT
         </h1>
         <div className="relative top-28 text-bold w-full ">
@@ -52,13 +53,13 @@ const CDashboard = () => {
 
           <section className="top-48 my-5 w-full">
             {selectedOption === "day" && <CarbonFootprint />}
-            {/* {selectedOption === "month" && <MonthCharts />}
-            {selectedOption === "year" && <YearCharts />} */}
+            {selectedOption === "month" && <CarbonMonthCharts />}
+            {selectedOption === "year" && <CarbonYearCharts />}
           </section>
         </div>
       </div>
     </>
-  )
+  );
 };
 
 export default CDashboard;

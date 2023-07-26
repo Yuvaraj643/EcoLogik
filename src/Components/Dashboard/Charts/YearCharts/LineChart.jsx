@@ -1,82 +1,47 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { Line } from '@ant-design/plots';
+import { Area } from '@ant-design/plots';
 
 
 const LineChart = () => {
-    const data = [
-        {
-          year: '1991',
-          value: 3,
-        },
-        {
-          year: '1992',
-          value: 4,
-        },
-        {
-          year: '1993',
-          value: 3.5,
-        },
-        {
-          year: '1994',
-          value: 5,
-        },
-        {
-          year: '1995',
-          value: 4.9,
-        },
-        {
-          year: '1996',
-          value: 6,
-        },
-        {
-          year: '1997',
-          value: 7,
-        },
-        {
-          year: '1998',
-          value: 9,
-        },
-        {
-          year: '1999',
-          value: 13,
-        },
-      ];
-      const config = {
-        data,
-        xField: 'year',
-        yField: 'value',
-        label: {},
-        point: {
-          size: 5,
-          shape: 'diamond',
-          style: {
-            fill: 'white',
-            stroke: '#5B8FF9',
-            lineWidth: 2,
-          },
-        },
-        tooltip: {
-          showMarkers: false,
-        },
-        state: {
-          active: {
-            style: {
-              shadowBlur: 4,
-              stroke: '#000',
-              fill: 'red',
-            },
-          },
-        },
-        interactions: [
-          {
-            type: 'marker-active',
-          },
-        ],
-      };
+  const data = [
+    {
+      timePeriod: "2018",
+      kWh: "2000",
+      value: 3500,
+    },
+    {
+      timePeriod: "2019",
+      kWh: "4000",
+      value: 2000 ,
+    },
+    {
+      timePeriod: "2020",
+      kWh: "6000",
+      value: 3000,
+    },
+    {
+      timePeriod: "2021",
+      kWh: "8000",
+      value: 4000,
+    },
+    {
+      timePeriod: "2022",
+      kWh: "10000",
+      value: 2600,
+    },
+  ];
+  const config = {
+    data,
+    xField: 'timePeriod',
+    yField: 'value',
+    xAxis: {
+      range: [0, 1],
+    },
+  };
     
   return (
-    <Line {...config} />
+    <Area {...config} />
   )
 }
 

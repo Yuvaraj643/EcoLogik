@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import PieChart from './Charts/YearCharts/PieChart';
 import LineChart from './Charts/YearCharts/LineChart';
 import { ColumnChart } from "./Charts/YearCharts/ColumnChart";
+import SideColumn from './Charts/YearCharts/SideColumn';
+import Progress from './Charts/YearCharts/Progress';
 const YearCharts = () => {
   const data = [
     {
@@ -56,6 +58,8 @@ const YearCharts = () => {
         <div class="col ">
           <div class="card animate__animated animate__backInLeft">
             <div class="card-body ">
+              <h5 class="card-title">COST PREDICTED</h5>
+              <hr />
               <PieChart />
             </div>
           </div>
@@ -63,6 +67,8 @@ const YearCharts = () => {
         <div class="col">
           <div class="card animate__animated animate__backInUp">
             <div class="card-body">
+              <h5 class="card-title">CHANGE IN COST</h5>
+              <hr />
               <ColumnChart />
             </div>
           </div>
@@ -70,7 +76,27 @@ const YearCharts = () => {
         <div class="col">
           <div class="card animate__animated animate__backInRight">
             <div class="card-body">
+              <h5 class="card-title">USAGE ESTIMATE</h5>
+              <hr />
               <LineChart />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card animate__animated animate__backInRight">
+            <div class="card-body">
+              <h5 class="card-title">ACTIVE APPLIANCES</h5>
+              <hr />
+              <SideColumn />
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card animate__animated animate__backInRight">
+            <div class="card-body">
+              <h5 class="card-title">ENERGY INTENSITY</h5>
+              <hr />
+              <Progress />
             </div>
           </div>
         </div>

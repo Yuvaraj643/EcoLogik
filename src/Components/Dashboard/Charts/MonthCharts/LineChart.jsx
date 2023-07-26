@@ -1,83 +1,45 @@
-import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
-import { Line } from '@ant-design/plots';
-
+import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
+import { Area } from "@ant-design/plots";
 
 const LineChart = () => {
-    const data = [
-        {
-          year: '1991',
-          value: 3,
-        },
-        {
-          year: '1992',
-          value: 4,
-        },
-        {
-          year: '1993',
-          value: 3.5,
-        },
-        {
-          year: '1994',
-          value: 5,
-        },
-        {
-          year: '1995',
-          value: 4.9,
-        },
-        {
-          year: '1996',
-          value: 6,
-        },
-        {
-          year: '1997',
-          value: 7,
-        },
-        {
-          year: '1998',
-          value: 9,
-        },
-        {
-          year: '1999',
-          value: 13,
-        },
-      ];
-      const config = {
-        data,
-        xField: 'year',
-        yField: 'value',
-        label: {},
-        point: {
-          size: 5,
-          shape: 'diamond',
-          style: {
-            fill: 'white',
-            stroke: '#5B8FF9',
-            lineWidth: 2,
-          },
-        },
-        tooltip: {
-          showMarkers: false,
-        },
-        state: {
-          active: {
-            style: {
-              shadowBlur: 4,
-              stroke: '#000',
-              fill: 'red',
-            },
-          },
-        },
-        interactions: [
-          {
-            type: 'marker-active',
-          },
-        ],
-      };
-    
-  return (
-    <Line {...config} />
-  )
-}
+  const data = [
+    {
+      timePeriod: "May",
+      kWh: "100",
+      value: 400,
+    },
+    {
+      timePeriod: "June",
+      kWh: "200",
+      value: 200,
+    },
+    {
+      timePeriod: "July",
+      kWh: "300",
+      value: 300,
+    },
+    {
+      timePeriod: "August",
+      kWh: "400",
+      value: 150,
+    },
+    {
+      timePeriod: "September",
+      kWh: "500",
+      value: 250,
+    },
+  ];
+  const config = {
+    data,
+    xField: 'timePeriod',
+    yField: 'value',
+    xAxis: {
+      range: [0, 1],
+    },
+  };
 
-export default LineChart
+  return <Area {...config} />;
+};
+
+export default LineChart;

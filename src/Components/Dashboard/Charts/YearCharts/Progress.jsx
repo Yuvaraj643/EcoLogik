@@ -4,7 +4,7 @@ import { Gauge } from '@ant-design/plots';
 
 const Progress = () => {
     const config = {
-        percent: 0.05,
+        percent: 0.75,
         range: {
           color: 'l(0) 0:#B8E1FF 1:#3D76DD',
         },
@@ -18,7 +18,7 @@ const Progress = () => {
               fontSize: '36px',
               color: '#4B535E',
             },
-            formatter: () => '5%',
+            formatter: () => '70%',
           },
           content: {
             style: {

@@ -2,40 +2,40 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Column } from '@ant-design/plots';
 export const ColumnChart = () => {
-    const data = [
-        {
-          type: '家具家电',
-          sales: 20,
-        },
-        {
-          type: '粮油副食',
-          sales: 52,
-        },
-        {
-          type: '生鲜水果',
-          sales: 61,
-        },
-        {
-          type: '美容洗护',
-          sales: 145,
-        },
-        {
-          type: '母婴用品',
-          sales: 48,
-        },
-        {
-          type: '进口食品',
-          sales: 38,
-        },
-        {
-          type: '食品饮料',
-          sales: 38,
-        },
-        {
-          type: '家庭清洁',
-          sales: 38,
-        },
-      ];
+  const data = [
+    {
+      type: '2015',
+      sales: 20000,
+    },
+    {
+      type: '2016',
+      sales: 18200,
+    },
+    {
+      type: '2017',
+      sales: 22000,
+    },
+    {
+      type: '2018',
+      sales: 25000,
+    },
+    {
+      type: '2019',
+      sales: 19750,
+    },
+    {
+      type: '2020',
+      sales: 22225,
+    },
+    {
+      type: '2021',
+      sales: 26150,
+    },
+    {
+      type: '2022',
+      sales: 21620,
+     },
+      ];
       const config = {
         data,
         xField: 'type',

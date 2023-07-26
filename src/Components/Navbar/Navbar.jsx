@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import avatar from "./avatar.jpg";
-
+import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <>
@@ -10,36 +10,32 @@ const Navbar = () => {
           ECOLOGIK
         </a>
         <div className="flex items-center space-x-6 text-white">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
+          <li class="nav-item">
+            <Link
+              activeClass="active"
+              to="targetDiv"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
             >
-              Services
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#">
-                  Energy Management
-                </a>
-              </li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">
-                  Carbon Emission Management
-                </a>
-              </li>
-            </ul>
+              <a class="nav-link " role="button">
+                Services
+              </a>
+            </Link>
           </li>
-
-          <a href="/about" className="text-white">
-            About
-          </a>
+          <Link
+            activeClass="active"
+            to="targetDiv2"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <a href="/about" className="text-white">
+              About
+            </a>
+          </Link>
           <div className="flex items-center justify-center">
             <img
               src={avatar}
@@ -53,7 +49,9 @@ const Navbar = () => {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-              >User</a>
+              >
+                User
+              </a>
               <ul className="dropdown-menu absolute right-0 mt-2 w-40 bg-white border rounded shadow-lg hidden">
                 <li>
                   <a className="dropdown-item" href="#">
@@ -73,7 +71,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
     </>
   );
 };

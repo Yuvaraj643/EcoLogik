@@ -7,7 +7,7 @@ const Sidebar = () => {
     <>
       <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             ECOLOGIK
           </a>
           <button
@@ -39,7 +39,7 @@ const Sidebar = () => {
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">
                     Home
                   </a>
@@ -75,7 +75,7 @@ const Sidebar = () => {
                     </li>
 
                   </ul>
-                </li>
+                </li> */}
               </ul>
               <form class="d-flex" role="search">
                 <img

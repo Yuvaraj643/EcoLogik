@@ -3,28 +3,28 @@ import ReactDOM from 'react-dom';
 import { Pie } from '@ant-design/plots';
 
 const PieChart = () => {
-  const data = [
-    {
-      type: 'Lights',
-      value: 25,
-    },
-    {
-      type: 'Systems',
-      value: 45,
-    },
-    {
-      type: 'Fans and ACs',
-      value: 20,
-    },
-    {
-      type: 'Broadband',
-      value: 6,
-    },
-    {
-      type: 'Lifts',
-      value: 4,
-    },
-  ];
+    const data = [
+        {
+          type: 'Lights',
+          value: 27,
+        },
+        {
+          type: 'Systems',
+          value: 40,
+        },
+        {
+          type: 'Fans and ACs',
+          value: 15,
+        },
+        {
+          type: 'Broadband',
+          value: 10,
+        },
+        {
+          type: 'Lifts',
+          value: 5,
+        },
+      ];
       const config = {
         appendPadding: 10,
         data,
