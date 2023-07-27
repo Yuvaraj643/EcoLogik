@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "./avatar.jpg";
-import "./sidebar.css"
+import "./sidebar.css";
 
 const Sidebar = () => {
   return (
@@ -79,12 +79,13 @@ const Sidebar = () => {
               </ul>
               <form class="d-flex" role="search">
                 <img
-              src={avatar}
-              alt="User Avatar"
-              className="w-8 h-8 rounded-full my-1 mx-2"
-            />
+                  src={avatar}
+                  alt="User Avatar"
+                  className="w-8 h-8 rounded-full my-1 mx-2"
+                />
+
                 <button class="btn btn-danger" type="submit">
-                  Logout
+                  <a href="/" className="text-white">Logout</a>
                 </button>
               </form>
             </div>

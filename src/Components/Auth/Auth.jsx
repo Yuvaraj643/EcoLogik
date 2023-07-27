@@ -53,7 +53,7 @@ const Registerpage = () => {
                               />
                               <i class="input-icon uil uil-lock-alt"></i>
                             </div>
-                            <a href="#" class="btn mt-4">
+                            <a href="/dashboard" class="btn mt-4">
                               submit
                             </a>
                             <p class="mb-0 mt-4 text-center">
@@ -101,7 +101,7 @@ const Registerpage = () => {
                               />
                               <i class="input-icon uil uil-lock-alt"></i>
                             </div>
-                            <a href="#" class="btn mt-4">
+                            <a href="/dashboard" class="btn mt-4">
                               submit
                             </a>
                           </div>
