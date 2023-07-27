@@ -58,10 +58,10 @@ export const ColumnChart = () => {
         },
         meta: {
           type: {
-            alias: '类别',
+            alias: 'Cost',
           },
           sales: {
-            alias: '销售额',
+            alias: 'Cost',
           },
         },
       };
