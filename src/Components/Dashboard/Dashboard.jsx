@@ -33,7 +33,7 @@ const Dashboard = () => {
           <span>N</span>
           <span>T</span>
         </h1>
-        <div className="relative top-28 text-bold w-full ">
+        <div className="relative top-28 text-bold w-full charts">
           <div className="flex gap-3 justify-center animate__animated animate__fadeInDown">
             <button
               data-text="Awesome"
