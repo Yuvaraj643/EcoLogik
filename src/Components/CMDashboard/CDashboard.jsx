@@ -15,7 +15,7 @@ const CDashboard = () => {
         <h1 className="relative text-3xl top-20 flex justify-center text-white animate__animated animate__fadeInUp">
           CARBON EMISSION MANAGEMENT
         </h1>
-        <div className="relative top-28 text-bold w-full ">
+        <div className="relative top-28 text-bold w-full charts">
           <div className="flex gap-3 justify-center animate__animated animate__fadeInDown">
             <button
               data-text="Awesome"
