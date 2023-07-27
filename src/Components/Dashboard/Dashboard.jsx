@@ -14,7 +14,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="main w-full h-full">
-        <h1 className="relative text-3xl top-20 flex justify-center animate__animated animate__fadeInUp text-white">
+        <h1 className="relative text-2xl top-20 flex justify-center animate__animated animate__fadeInUp text-white">
         <span>E</span>
     <span>N</span>
     <span>E</span>
