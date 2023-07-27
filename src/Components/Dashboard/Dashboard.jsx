@@ -14,24 +14,24 @@ const Dashboard = () => {
   return (
     <>
       <div className="main w-full h-full">
-        <h1 className="relative text-2xl top-20 flex justify-center animate__animated animate__fadeInUp text-white">
-        <span>E</span>
-    <span>N</span>
-    <span>E</span>
-    <span>R</span>
-    <span>G</span>
-    <span>Y</span>
-    &nbsp;
-    <span>M</span>
-    <span>A</span>
-    <span>N</span>
-    <span>A</span>
-    <span>G</span>
-    <span>E</span>
-    <span>M</span>
-    <span>E</span>
-    <span>N</span>
-    <span>T</span>
+        <h1 className="relative text-xl top-20 flex justify-center animate__animated animate__fadeInUp text-white">
+          <span>E</span>
+          <span>N</span>
+          <span>E</span>
+          <span>R</span>
+          <span>G</span>
+          <span>Y</span>
+          &nbsp;
+          <span>M</span>
+          <span>A</span>
+          <span>N</span>
+          <span>A</span>
+          <span>G</span>
+          <span>E</span>
+          <span>M</span>
+          <span>E</span>
+          <span>N</span>
+          <span>T</span>
         </h1>
         <div className="relative top-28 text-bold w-full ">
           <div className="flex gap-3 justify-center animate__animated animate__fadeInDown">

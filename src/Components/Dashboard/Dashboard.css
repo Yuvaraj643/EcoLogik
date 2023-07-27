@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-/* === removing default button-1 style ===*/
 .main{
-  height : 200vh;
   background-color: #094f77;
+  max-height: max-content;
+  
 }
 .button-1 {
   margin: 0;
@@ -18,7 +18,7 @@
   --border-right: 6px;
   --text-stroke-color: rgba(255,255,255,0.6);
   --animation-color: #37FF8B;
-  --fs-size: 2em;
+  --fs-size: 1.5em;
   letter-spacing: 3px;
   text-decoration: none;
   font-size: var(--fs-size);
@@ -65,7 +65,7 @@ h1{
 
 h1 span {
   color : white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   animation: glowing 4.25s linear infinite;
 }
 
@@ -82,7 +82,7 @@ h1 span {
                  0 0 300px #00b3ff,
                  0 0 400px #00b3ff;
   } 5%, 95% {
-    color: rgb(190, 183, 183);
+    color: rgb(57, 34, 34);
     text-shadow: none;
     filter: blur(0px);
   }
