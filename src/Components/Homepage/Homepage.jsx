@@ -216,7 +216,6 @@ const Homepage = () => {
                 </ul>
               </div>
               <div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
-                {/* <h3 class="text-base font-semibold leading-7 text-gray-900">Pro Plan</h3> */}
                 <p class="mt-6 flex items-baseline gap-x-1">
                   <span class="text-3xl font-bold tracking-tight text-gray-900">
                     Carbon-Emission Management
@@ -313,10 +312,9 @@ const Homepage = () => {
                 </ul>
               </div>
               <div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
-                {/* <h3 class="text-base font-semibold leading-7 text-gray-900">Advanced Plan</h3> */}
                 <p class="mt-6 flex items-baseline gap-x-1">
                   <span class="text-3xl font-bold tracking-tight text-gray-900">
-                    COST MANAGEMENT
+                    Cost Management
                   </span>
                 </p>
                 <a
