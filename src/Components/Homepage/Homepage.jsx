@@ -223,7 +223,7 @@ const Homepage = () => {
                   </span>
                 </p>
                 <a
-                  href="/C02-dashboard"
+                  href="/Cost-dashboard"
                   class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started
@@ -316,17 +316,17 @@ const Homepage = () => {
                 {/* <h3 class="text-base font-semibold leading-7 text-gray-900">Advanced Plan</h3> */}
                 <p class="mt-6 flex items-baseline gap-x-1">
                   <span class="text-3xl font-bold tracking-tight text-gray-900">
-                    Device Configurations
+                    COST MANAGEMENT
                   </span>
                 </p>
                 <a
-                  href="#"
+                  href="/Cost-dashboard"
                   class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started
                 </a>
                 <p class="mt-10 text-sm font-semibold leading-6 text-gray-900">
-                  Designed for large industries
+                Designed for cost management in enterprises
                 </p>
                 <ul
                   role="list"
@@ -345,7 +345,7 @@ const Homepage = () => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    Centralized Configuration Management
+                    Analysis for cost optimization
                   </li>
                   <li class="flex gap-x-3">
                     <svg
@@ -360,22 +360,7 @@ const Homepage = () => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    Energy consumption analysis
-                  </li>
-                  <li class="flex gap-x-3">
-                    <svg
-                      class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                    Automated Configuration Deployment
+                    Automated Cost Configuration Deployment
                   </li>
                   <li class="flex gap-x-3">
                     <svg
@@ -391,6 +376,21 @@ const Homepage = () => {
                       ></path>
                     </svg>
                     Cross-platform Support
+                  </li>
+                  <li class="flex gap-x-3">
+                    <svg
+                      class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    Cost monitoring on various devices
                   </li>
                   <li class="flex gap-x-3">
                     <svg
