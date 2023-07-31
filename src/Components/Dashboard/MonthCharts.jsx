@@ -8,6 +8,9 @@ import SideColumn from './Charts/MonthCharts/SideColumn';
 import Progress from './Charts/MonthCharts/Progress';
 import { Link } from 'react-router-dom';
 const MonthCharts = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>
@@ -58,19 +61,19 @@ const MonthCharts = () => {
           </div>
         </div>
         <div className="col">
-          <div className="card" style={{ minHeight: "490px" }}>
-            <div className="card-body d-flex justify-content-center align-items-center">
-              <div className="d-flex flex-column align-items-center">
-                <Link to="/C02-dashboard" className="btn btn-primary mb-3">
-                  Go to Carbon-Emission Dashboard
-                </Link>
-                <Link to="/Cost-dashboard" className="btn btn-primary">
-                  Go to Cost Dashboard
-                </Link>
-              </div>
-            </div>
+      <div className="card" style={{ minHeight: "490px" }}>
+        <div className="card-body d-flex justify-content-center align-items-center">
+          <div className="d-flex flex-column align-items-center">
+            <Link to="/C02-dashboard" className="btn btn-primary mb-3" onClick={scrollToTop}>
+              Go to Carbon-Emission Dashboard
+            </Link>
+            <Link to="/Cost-dashboard" className="btn btn-primary" onClick={scrollToTop}>
+              Go to Cost Dashboard
+            </Link>
           </div>
         </div>
+      </div>
+    </div>
       </div>
     </>
   )

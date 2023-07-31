@@ -156,6 +156,9 @@ const CarbonFootprint = () => {
       },
     },
   };
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>
@@ -246,10 +249,10 @@ const CarbonFootprint = () => {
         >
           <div className="card-body d-flex justify-content-center align-items-center">
             <div className="d-flex flex-column align-items-center">
-              <Link to="/C02-dashboard" className="btn btn-primary mb-3">
-                Go to Carbon-Emission Dashboard
+              <Link to="/dashboard" className="btn btn-primary mb-3" onClick={scrollToTop}>
+                Go to Energy Dashboard
               </Link>
-              <Link to="/Cost-dashboard" className="btn btn-primary">
+              <Link to="/Cost-dashboard" className="btn btn-primary" onClick={scrollToTop}>
                 Go to Cost Dashboard
               </Link>
             </div>
