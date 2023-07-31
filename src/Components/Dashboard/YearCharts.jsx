@@ -5,6 +5,7 @@ import LineChart from './Charts/YearCharts/LineChart';
 import { ColumnChart } from "./Charts/YearCharts/ColumnChart";
 import SideColumn from './Charts/YearCharts/SideColumn';
 import Progress from './Charts/YearCharts/Progress';
+import { Link } from 'react-router-dom';
 const YearCharts = () => {
   const data = [
     {
@@ -97,6 +98,20 @@ const YearCharts = () => {
               <h5 class="card-title">ENERGY INTENSITY</h5>
               <hr />
               <Progress />
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card" style={{ minHeight: "490px" }}>
+            <div className="card-body d-flex justify-content-center align-items-center">
+              <div className="d-flex flex-column align-items-center">
+                <Link to="/C02-dashboard" className="btn btn-primary mb-3">
+                  Go to Carbon-Emission Dashboard
+                </Link>
+                <Link to="/Cost-dashboard" className="btn btn-primary">
+                  Go to Cost Dashboard
+                </Link>
+              </div>
             </div>
           </div>
         </div>

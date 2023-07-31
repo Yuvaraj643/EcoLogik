@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Line } from "@ant-design/plots";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { Link } from "react-router-dom";
 const CarbonFootprint = () => {
   const [selectedOption, setSelectedOption] = useState(null);
 
@@ -153,6 +153,7 @@ const CarbonFootprint = () => {
   };
 
   return (
+    <>
     <div className="flex w-full justify-center mx-auto row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
       <div className="animate__animated animate__slideInLeft">
         <h2 className="text-white text-center mx-5">CARBON FOOTPRINT</h2>
@@ -201,6 +202,24 @@ const CarbonFootprint = () => {
         </div>
       </div>
     </div>
+    <div className="col" style={{ margin: "20px" }}>
+        <div
+          className="card"
+          style={{ minHeight: "300px", maxWidth: "400px", margin: "0 auto" }}
+        >
+          <div className="card-body d-flex justify-content-center align-items-center">
+            <div className="d-flex flex-column align-items-center">
+              <Link to="/C02-dashboard" className="btn btn-primary mb-3">
+                Go to Carbon-Emission Dashboard
+              </Link>
+              <Link to="/Cost-dashboard" className="btn btn-primary">
+                Go to Cost Dashboard
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
